@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 01332d8a5f1c5624bb6970e4ac179335, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -3322,6 +3322,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Distance: 1
+  Mask:
+    serializedVersion: 2
+    m_Bits: 0
   _shotEffect: {fileID: 621183888}
   _audioEffectSource: {fileID: 0}
   _audioEffect: {fileID: 0}
