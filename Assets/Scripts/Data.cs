@@ -4,18 +4,7 @@ using UnityEngine;
 
 public static class Data
 {
-    public static bool fullscreen;
-    public static float volume;
-    public static int quality;
-
-
-    public static void GetVolume()
-    {
-
-    }
-
-    public static void SetVolume()
-    {
-
-    }
+    public static bool fullscreen = false;
+    public static float volume = 1.0f;
+    public static int quality = 5;
 }

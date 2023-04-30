@@ -1134,9 +1134,15 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
+    - m_Text: Very low
+      m_Image: {fileID: 0}
     - m_Text: Low
       m_Image: {fileID: 0}
     - m_Text: Medium
+      m_Image: {fileID: 0}
+    - m_Text: High
+      m_Image: {fileID: 0}
+    - m_Text: Very high
       m_Image: {fileID: 0}
     - m_Text: Ultra
       m_Image: {fileID: 0}
@@ -1265,7 +1271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Low
+  m_Text: Very low
 --- !u!222 &564236439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3812,7 +3818,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volume: {fileID: 1711328196}
   quality: {fileID: 558758855}
-  am: {fileID: 24100000, guid: dc3d4c22eb8753b43a410b92879339c0, type: 2}
 --- !u!1 &2139978135
 GameObject:
   m_ObjectHideFlags: 0

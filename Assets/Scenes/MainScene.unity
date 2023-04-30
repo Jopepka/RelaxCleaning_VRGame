@@ -4773,6 +4773,8 @@ MonoBehaviour:
   landVol: {fileID: 1776708528}
   jumpVol: {fileID: 1776708527}
   crouchVol: {fileID: 1771677136}
+  crouchSVol: {fileID: 526865329}
+  crouchEVol: {fileID: 526865328}
 --- !u!1 &445337568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8454771094425576097, guid: d6e30d70021b90049abb43301d6cdb32, type: 3}
@@ -5557,6 +5559,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4497011438508190, guid: 7446a392a730ac14d9cc70d21cf7ace0, type: 3}
   m_PrefabInstance: {fileID: 343094639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &526865328 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7563556069531604368, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 1776708524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &526865329 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2065189708, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 1776708524}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &533591412
 GameObject:
