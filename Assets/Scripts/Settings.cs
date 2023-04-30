@@ -9,19 +9,20 @@ public class Settings : MonoBehaviour
     bool isFullScreen = false;
     public Slider volume;
     public Dropdown quality;
-    public AudioMixer am;
 
     public void FullScreenToggle()
     {
         isFullScreen = !isFullScreen;
+        Data.fullscreen = isFullScreen;
         Screen.fullScreen = isFullScreen;
     }
     public void AudioVolume()
     {
-        am.SetFloat("masterVolume", volume.value);
+        Data.volume = volume.value;
     }
     public void Quality()
     {
         QualitySettings.SetQualityLevel(quality.value);
+        Data.quality = quality.value;
     }
 }
