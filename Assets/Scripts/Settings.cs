@@ -1,28 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class Settings : MonoBehaviour
 {
-    bool isFullScreen = false;
     public Slider volume;
     public Dropdown quality;
 
-    public void FullScreenToggle()
-    {
-        isFullScreen = !isFullScreen;
-        Data.fullscreen = isFullScreen;
-        Screen.fullScreen = isFullScreen;
-    }
+    public AudioSource stepVol;
+    public AudioSource runVol;
+    public AudioSource landVol;
+    public AudioSource jumpVol;
+    public AudioSource crouchVol;
+    public AudioSource crouchSVol;
+    public AudioSource crouchEVol;
+
     public void AudioVolume()
     {
-        Data.volume = volume.value;
+        stepVol.volume = volume.value;
+        runVol.volume = volume.value;
+        landVol.volume = volume.value;
+        jumpVol.volume = volume.value;
+        crouchVol.volume = volume.value * 0.3f;
+        crouchSVol.volume = volume.value;
+        crouchEVol.volume = volume.value;
     }
     public void Quality()
     {
-        QualitySettings.SetQualityLevel(quality.value);
-        Data.quality = quality.value;
+        QualitySettings.SetQualityLevel(5 - quality.value);
     }
 }
