@@ -4,7 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Scenes: []
+=======
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: ccb2b65e566503b44b8fb51d87ca1c08
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/FirstScene/MainScene.unity
+    guid: bfbd878d7a88f114db06fb00dc03fb6b
+>>>>>>> Stashed changes
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fcbde7e5d66615642b7783d9c0ef8d17, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8649b08738654e34caa811feea2a8356, type: 2}
