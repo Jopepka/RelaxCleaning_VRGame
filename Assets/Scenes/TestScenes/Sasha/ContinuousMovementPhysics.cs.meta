@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/TestScenes/Sasha/ContinuousMovementPhysics.cs.meta
 guid: 43e6798b2f35c604eb9a22ab45c0d783
+========
+guid: 76e068316a0d8da44848a197287830ca
+>>>>>>>> 55b0315d2972c42fcedbaf87b157280b682d8b8c:Assets/Scenes/TestScenes/Sasha/PhysicRig.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

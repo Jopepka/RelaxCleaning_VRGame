@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/UI/SetSettings.cs.meta
 guid: 7eb714f1ce6e53d4b8c6c47c2a6a9d95
+========
+guid: 1bd1a00982b86d849a0def4773ad8558
+>>>>>>>> 55b0315d2972c42fcedbaf87b157280b682d8b8c:Assets/Scenes/TestScenes/Sasha/GrabPhysics.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

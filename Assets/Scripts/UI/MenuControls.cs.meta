@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/UI/MenuControls.cs.meta
 guid: 2fd5d61bf0e05b64e8db0f85f9906db9
+========
+guid: 43e6798b2f35c604eb9a22ab45c0d783
+>>>>>>>> 55b0315d2972c42fcedbaf87b157280b682d8b8c:Assets/Scenes/TestScenes/Sasha/ContinuousMovementPhysics.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

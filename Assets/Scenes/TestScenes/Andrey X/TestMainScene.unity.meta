@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/TestScenes/Andrey X/TestMainScene.unity.meta
 guid: f21745669e8a20b458d582f2067d9519
+========
+guid: 34cc8b1c0d87e8548af4b79cf1a10456
+>>>>>>>> 55b0315d2972c42fcedbaf87b157280b682d8b8c:Assets/Scenes/TestScenes/Andrey Y/SceneUI.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
